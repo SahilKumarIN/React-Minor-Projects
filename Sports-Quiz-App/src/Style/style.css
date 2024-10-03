@@ -1,0 +1,130 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: rgba(212, 146, 238, 0.99);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 1.5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px #c5cae9;
+}
+.main h1{
+    color: whitesmoke;
+    text-shadow: 5px 5px 8px black;
+}
+.main p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #80deea;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a h1{
+    color: #8e24aa;
+}
+.navbar span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #c5cae9;
+}
+.rules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c5cae9;
+    margin: auto;
+    width: 60%;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.rules_head{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rules_part{
+    font-size: 20px;
+    font-weight: 600;
+}
+.main button{
+    cursor: pointer;
+    width: 10vw;
+    height: 10vh;
+    background-color: #80deea;
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.btnslast{
+    cursor: pointer;
+    width: 10vw;
+    height: 10vh;
+    background-color: #80deea;
+    color: black;
+    font-size: 2.5vh;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+}
+.question p{
+    font-size: 4vh;
+}
+.question label{
+    font-size: 3.5vh;
+    font-weight: 600;
+}
+.question input{
+    height: 15px;
+    width: 18px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.btns button{
+    width: 7vw;
+    height: 6vh;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: black; */
+    margin-top: 3vh;
+    width: 20vw;
+}
+.over{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
