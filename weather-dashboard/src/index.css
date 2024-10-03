@@ -1,0 +1,19 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.MuiAppBar-root {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.MuiContainer-root {
+  padding-top: 20px;
+}
+
+.MuiButton-containedPrimary {
+  margin-bottom: 20px;
+}
