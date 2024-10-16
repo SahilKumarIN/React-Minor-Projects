@@ -1,0 +1,27 @@
+/* Tailwind CSS dark mode support */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    --bg-color-light: #f9fafb;
+    --text-color-light: #1f2937;
+    --bg-color-dark: #1f2937;
+    --text-color-dark: #f9fafb;
+  }
+  
+  html.light {
+    --bg-color: var(--bg-color-light);
+    --text-color: var(--text-color-light);
+  }
+  
+  html.dark {
+    --bg-color: var(--bg-color-dark);
+    --text-color: var(--text-color-dark);
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
