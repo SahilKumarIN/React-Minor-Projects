@@ -1,0 +1,161 @@
+.red_dot{
+  height: 22px;
+  padding-right: 5px;
+  animation: blink 2s linear infinite;
+}
+@keyframes blink{
+  0%{opacity: 0;}
+  50%{opacity: .5;}
+  100%{opacity: 1;}
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    background-color: #fff;
+  }
+  
+  body {
+    color: #272727;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 1rem;
+  }
+  
+  .main{
+    max-width: 1200px;
+    height: 80vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+  }
+  
+  h1 {
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 8%;
+    height: 70%;
+    padding: 0;
+  }
+  
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 300px;
+
+  }
+  
+  .card_content {
+    height: 100%;
+    padding: 1rem;
+    background-color:#222 ;
+  }
+  
+  .card_title {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: #ffffff;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+  .made_by{
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5%; 
+    text-align: center;
+  }
+
+  @media(max-width:896px) {
+    .made_by{
+      margin-top: 25%; 
+    }
+  }
+  @media(max-width:640px) {
+    .made_by{
+      margin-top: 40%; 
+    }
+    .cards_item{
+      padding-left: 5%;
+    }
+    .card {
+      width: 250px;
+    }
+    
+  
+  }
+  @media(max-width:623px) {
+    .card_text {
+      font-size: 1.5rem;
+    }
+    .card_title {
+      font-size: 1.5rem;
+    }
+    .cards_item{
+      padding-left: 5%;
+    }
+    .card {
+      width: 220px;
+    }
+  }
+  @media(max-width:623px) {
+    .card {
+      width: 300px;
+    }
+    .cards_item{
+      padding-left: 8%;
+    }
+    .made_by{
+      margin-top: 130%; 
+    }
+  }
+@media (max-width:425px) {
+  .head{
+    font-size: 1.8rem;
+  }
+  .made_by{
+    margin-top: 150%; 
+  }
+}
