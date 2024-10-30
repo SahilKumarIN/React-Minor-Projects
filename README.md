@@ -1,35 +1,72 @@
-# React Minor Project 🎉
 
-Welcome to the **React Minor Project** for **Hacktoberfest 2024**! 🚀
+# FileShare.app - (File Sharing Website)
 
-## About the Project
-This repository is dedicated to helping developers contribute to a minor project built using React. Our goal is to create a simple yet powerful web application that showcases best practices in React development. It's a fantastic opportunity for contributors to participate in Hacktoberfest and sharpen their React skills while working in a collaborative environment. 🌟
+![Alt text](image.png)
+- ### File Sharing Application offers a streamlined and secure platform for users to upload files of various formats.
 
-## Project Overview
-This project will cover a range of basic to intermediate features of a React application, including:
+- ### With a user-friendly interface, individuals can effortlessly generate shareable links for their uploaded files, allowing recipients to access and download the content with ease.
 
-- **Functional Components & Hooks**: Learn how to build reusable components and leverage React hooks for state and lifecycle management. 🔄
-- **Component State Management**: Understand how to manage state within components using `useState` and `useEffect`. 🛠️
-- **Routing with React Router**: Implement seamless navigation between different pages of the application. 🧭
-- **Simple Form Handling**: Create interactive forms and handle user input efficiently. 📝
-- **Basic Styling**: Use CSS or Styled Components to create a visually appealing interface. 🎨
 
-## Key Features
-- **Component Structure**: Well-organized React components to enhance readability and maintainability. 📂
-- **Routing**: Basic navigation between pages to create a smooth user experience. 🚦
-- **State Management**: Use of hooks like `useState` and `useEffect` to manage state effectively. ⚙️
-- **Responsive Design**: Mobile-first design principles to ensure the application looks great on all devices. 📱
-- **Open for Contributions**: Perfect for new contributors looking to get involved in open source! 🤝
 
-😊 **All Contributions Are Welcomed!** 😊
+## Key Features:
 
-Feel free to explore the repository, submit your ideas, and help us build an amazing React application together! Whether you’re fixing bugs, adding features, or improving documentation, every contribution counts! 💪
+- ### Universal File Upload: 
+    - Users have the flexibility to upload any type of file,      provided it does not exceed the size limit of 100MB.
+    - Supported file formats include pdf,doc,exel,jpg,png,jpeg,videos,etc.
 
-## How to Contribute
-1. **Fork the Repository**: Create your own copy of the project.
-2. **Clone the Repository**: Download the project to your local machine.
-3. **Create a Branch**: Create a new branch for your feature or fix.
-4. **Make Changes**: Implement your changes and test them.
-5. **Submit a Pull Request**: Share your contributions with us for review!
+- ### Instant Shareable Links: 
+    - Upon successful file upload, a unique, secure, and sharable link is automatically generated. 
+    - This link acts as a direct gateway for recipients to access the uploaded file.
 
-Let’s make this project a great success together! Happy coding! 🎉💻
+- ### Copy & Share Functionality:
+    - Users can effortlessly copy the generated link with a single click, enabling them to share it across various platforms such as messaging apps, social media, or any preferred communication channel.
+
+- ### Email Integration:
+    - For added convenience, users have the option to directly email the generated link to their intended recipients.
+
+- ### Secure Download Page:
+    - Recipients directed to the download page encounter a secure environment designed to facilitate a smooth and secure downloading experience.
+
+- ### User-Friendly Interface:
+    - The application boasts an intuitive and user-centric design, ensuring that both uploaders and recipients can navigate the platform with ease.
+
+
+
+
+
+
+## Tech Stack
+
+### Client: React, HTML, CSS, Javascript, Axios
+
+### Server: Node, Express, EmailJS
+
+### Database: MongoDB
+
+
+## Installation Steps
+
+To run this project follow below steps:
+
+#### Clone the repository
+`git clone https://github.com/AmanPathan/FileShare.app.git`
+
+#### Change the directory
+`cd FileShare.app`
+
+#### open two terminals and then
+#### In first terminal install dependencies and Run 
+```bash
+cd server
+npm i
+node ./server.js
+```
+
+#### In second terminal install dependencies and Run
+```
+cd client
+npm i
+npm start
+```
+
+#### 🎉 Congratulations! You Have Successfully Run The Project 🎉
